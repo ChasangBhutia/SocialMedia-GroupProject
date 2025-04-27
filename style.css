@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgb(221, 220, 220);
+    padding: 10px;
+}
+
+.hero {
+    padding: 0px 80px;
+    display: grid;
+    grid-template-areas:
+        "sideMenu postsAndStoriesContainer postsAndStoriesContainer messages"
+        "sideMenu postsAndStoriesContainer postsAndStoriesContainer messages"
+         "sideMenu postsAndStoriesContainer postsAndStoriesContainer requests"
+          "sideMenu postsAndStoriesContainer postsAndStoriesContainer requests"  
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    height: 90vh;
+}
+
+.overflowController{
+    overflow-y: auto;
+    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.overflowController::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+.mainContainer .section {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+
+.postsAndStoriesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* Navbar Section */
+
+
+
+
+
+/* SideMenu Section */
+
+
+
+
+
+/* Stories Section */
+
+
+
+
+
+/* AddPost Section */
+
+
+
+
+
+/* Posts Section */
+
+
+
+
+
+/* Messafes Section */
+
+
+
+
+
+/* Request Section */
