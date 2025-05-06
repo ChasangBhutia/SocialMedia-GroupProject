@@ -5,24 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social-Media</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+<link
+  rel="stylesheet"
+  href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+/>
+
+
+
   </head>
   <body>
     <div class="mainContainer">
       <!-- Navbar goes here -->
-      <nav class="navbar section">
-        here goes the navbar
-      </nav>
-
+      <
+      
       <div class="hero">
         <!-- Side Menu goes here -->
-        <aside class="sideMenu section" style="grid-area: sideMenu">
-          here goes the sideMenu
+        <aside class="sideMenuWrapper" style="grid-area: sideMenu">
+          <div class="backgroundBox"></div> 
+          <div class="sideMenu">
+            <ul class="menuList">
+              <li class="menuItem active">
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="menuItem">
+                <a href="#"><i class="fas fa-comment"></i> Messages</a>
+              </li>
+              <li class="menuItem">
+                <a href="#"><i class="fas fa-bell"></i> Notifications</a>
+              </li>
+              <li class="menuItem">
+                <a href="#"><i class="fas fa-user"></i> Profile</a>
+              </li>
+              <li class="menuItem">
+                <a href="#"><i class="fas fa-cog"></i> Settings</a>
+              </li>
+              <li class="menuItem">
+                <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+              </li>
+            </ul>
+          </div>
         </aside>
+        
+        
+        </aside>
+        
 
         <div class="postsAndStoriesContainer overflowController" style="grid-area: postsAndStoriesContainer; overflow-y:auto; max-height: 100%;">
           <!-- Stories goes here -->
         <section class="stories section" >
-          here goes the stories
+          
+            <div class="story" data-story="story1.jpg">
+              <div class="storyImage">
+                <img src="user1.jpg" alt="Chandan" />
+              </div>
+              <span class="username">Chandan</span>
+            </div>
+          
+            <div class="story" data-story="story2.jpg">
+              <div class="storyImage">
+                <img src="user2.jpg" alt="Chasang" />
+              </div>
+              <span class="username">Chasang</span>
+            </div>
           </section>
 
         <!-- AddPost goes here -->
